@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(135, 206, 235);
+}
+p:first-child{
+	color:white;
+	background-color:black;
+}
+p:nth-child(2){
+	color:grren;
+}
+p:last-child{
+	color:red;
+}
+ul li{
+	width:50%;
+	padding:10px;
+	background-color:gray;
+}
+ul li:nth-child(odd) {
+	background-color:white;
+}
+ul li:first-child:last-child{
+	font-size:22px;
+}
